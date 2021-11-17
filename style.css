@@ -252,6 +252,9 @@ nav a{
 
 /* Responsive tablet/mobile */
 @media screen and (max-width: 768px){
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12{
+      background-attachment:scroll;
+    }
     .text{
         position:absolute;
         top: 50%;
