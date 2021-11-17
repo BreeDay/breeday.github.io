@@ -127,7 +127,39 @@ nav a{
    z-index: 3;
 } 
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12{
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive desktop */
+@media screen and (max-width:1500px){
+    .nav-links{
+        width:60%;
+    }
+    header h1{
+        font-size: 45px;
+    }
+    nav h1{
+        font-size: 45px;
+    }
+    section h1{
+        font-size: 45px;
+    }
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12{
     position:relative;
     opacity:0.75;
     background-position:center;
@@ -201,41 +233,84 @@ nav a{
     background-image:url('world.jpg');
     min-height:100%;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Responsive desktop */
-@media screen and (max-width:1500px){
-    .nav-links{
-        width:60%;
-    }
-    header h1{
-        font-size: 45px;
-    }
-    nav h1{
-        font-size: 45px;
-    }
-    section h1{
-        font-size: 45px;
-    }
 }
 
 /* Responsive laptop */
 @media screen and (max-width:992px){
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12{
+    position:relative;
+    opacity:0.75;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    z-index: -1;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('nyc.jpg');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('hand.jpg');
+    min-height:700px;
+  }
+  
+  .pimg3{
+    background-image:url('superhero.jpg');
+    min-height:700px;
+  }
+
+  .pimg4{
+    background-image:url('college.jpg');
+    min-height:700px;
+  }
+  
+  .pimg5{
+    background-image:url('hosp1.jpg');
+    min-height:600px;
+  }
+  
+  .pimg6{
+    background-image:url('hosp2.jpg');
+    min-height:600px;
+  }
+
+  .pimg7{
+    background-image:url('hosp3.jpg');
+    min-height:600px;
+  }
+  
+  .pimg8{
+    background-image:url('comp1.jpg');
+    min-height:600px;
+  }
+  
+  .pimg9{
+    background-image:url('comp2.jpg');
+    min-height:600px;
+  }
+
+  .pimg10{
+    background-image:url('office.jpg');
+    min-height:600px;
+  }
+  
+  .pimg11{
+    background-image:url('conf.jpg');
+    min-height:100%;
+  }
+
+  .pimg12{
+    background-image:url('world.jpg');
+    min-height:100%;
+  }
     .nav-links{
         width:60%;
     }
